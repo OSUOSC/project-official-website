@@ -14,7 +14,7 @@ paginate = 15
 
 [params]
     # Use this to display a message on  the home page
-    message = "This website is not currently maintained. Please visit our Discord or email us to be notified of current meetings!"
+    message = "This website currently undergoing a major revam. Please visit our Discord or email us to be notified of current meetings!"
 
     twitter = "osuosc"
     github = "OSUOSC"
