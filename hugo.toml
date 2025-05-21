@@ -1,3 +1,4 @@
 baseURL = 'https://osuosc.org/'
 languageCode = 'en-us'
 title = 'Open Source Club'
+theme = 'beautifulhugo'
