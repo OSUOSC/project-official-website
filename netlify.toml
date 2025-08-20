@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --minify"
+  command = "curl -sL https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.124.0_Linux-64bit.tar.gz | tar -xz && ./hugo --minify"
   publish = "public"
 
 [build.environment]
