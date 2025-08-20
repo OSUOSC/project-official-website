@@ -1,7 +1,7 @@
 [build]
-  command = "curl -sL https://github.com/gohugoio/hugo/releases/download/v0.124.0/hugo_0.142.0_Linux-64bit.tar.gz | tar -xz && ./hugo --minify"
+  command = "curl -sL https://github.com/gohugoio/hugo/releases/download/v0.142.0/hugo_0.142.0_Linux-64bit.tar.gz | tar -xz && ./hugo --minify"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.124.0"
+  HUGO_VERSION = "0.142.0"
   HUGO_EXTENDED = "true"
