@@ -26,7 +26,17 @@
 		{{ end }}
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+                    <!-- <i class="{{ .icon }} fa-stack-1x fa-inverse"></i> -->
+                    {{ if strings.HasSuffix .icon ".svg" }}
+                    <!-- For custom SVG icons -->
+                    {{ $svg := resources.Get .icon | resources.Minify }}
+                    <span class="svg-icon">
+                      {{ $svg.Content | safeHTML }}
+                    </span>
+                    {{ else }}
+                      <!-- For Font Awesome icon classes -->
+                      <i class="{{ .icon }} fa-stack-1x fa-inverse"></i>
+                    {{ end }}
                   </span>
                 </a>
               </li>
