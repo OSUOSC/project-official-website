@@ -1,2 +1,3 @@
-## Front Page Content
-`beautifulhugo` supports content on your front page. Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md` if you don't want any content here.
+Welcome to the official website for the Open Source Club at the Ohio State University!
+
+*This website is currently a work-in-progress!*
