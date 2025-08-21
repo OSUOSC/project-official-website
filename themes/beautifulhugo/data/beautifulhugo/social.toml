@@ -5,6 +5,25 @@ title = "Email me"
 icon = "fas fa-envelope"
 
 [[social_icons]]
+id = "mastodon"
+url = "https://%s"
+title = "Mastodon"
+icon = "fab fa-mastodon"
+rel = "me"
+
+[[social_icons]]
+id = "peertube"
+url = "https://%s"
+title = "PeerTube"
+icon = "peertube-logo.svg"
+
+[[social_icons]]
+id = "pixelfed"
+url = "https://%s"
+title = "Pixelfed"
+icon = "pixelfed-brands-solid-full.svg"
+
+[[social_icons]]
 id = "facebook"
 url = "https://www.facebook.com/%s"
 title = "Facebook"
@@ -71,16 +90,16 @@ title = "Snapchat"
 icon = "fab fa-snapchat-ghost"
 
 [[social_icons]]
-id = "instagram"
-url = "https://www.instagram.com/%s"
-title = "Instagram"
-icon = "fab fa-instagram"
-
-[[social_icons]]
 id = "youtube"
 url = "https://www.youtube.com/%s"
 title = "Youtube"
 icon = "fab fa-youtube"
+
+[[social_icons]]
+id = "instagram"
+url = "https://www.instagram.com/%s"
+title = "Instagram"
+icon = "fab fa-instagram"
 
 [[social_icons]]
 id = "soundcloud"
@@ -147,13 +166,6 @@ id = "kaggle"
 url = "https://www.kaggle.com/%s"
 title = "kaggle"
 icon = "fab fa-kaggle"
-
-[[social_icons]]
-id = "mastodon"
-url = "https://%s"
-title = "Mastodon"
-icon = "fab fa-mastodon"
-rel = "me"
 
 [[social_icons]]
 id = "weibo"
