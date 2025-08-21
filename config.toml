@@ -8,7 +8,7 @@ theme = 'beautifulhugo'
     url = "/about"
 
 [[menu.main]]
-    name = "Events"
+    name = "Past Events"
     url = "/events"
 
 [Params]
@@ -36,3 +36,4 @@ theme = 'beautifulhugo'
   peertube = "https://spectra.video/c/osc_at_osu_vids/videos"
   youtube = "https://www.youtube.com/@osc_at_osu"
   instagram = "https://www.instagram.com/osc_at_osu/"
+  discord = "https://discord.gg/qCSxDbDVSs"
