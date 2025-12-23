@@ -9,7 +9,7 @@ theme = 'beautifulhugo'
 
 [[menu.main]]
     name = "Past Events"
-    url = "/events"
+    url = "/events_archive"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
