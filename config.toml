@@ -1,20 +1,39 @@
-languageCode = "en-us"
-title = "Open Source Club"
-description = "At The Ohio State University"
-theme = "kube"
-paginate = 15
+baseURL = 'https://osuosc.org/'
+languageCode = 'en-us'
+title = 'Open Source Club'
+theme = 'beautifulhugo'
 
 [[menu.main]]
     name = "About"
     url = "/about"
 
 [[menu.main]]
-    name = "Events"
-    url = "/events"
+    name = "Past Events"
+    url = "/events_archive"
 
-[params]
-    # Use this to display a message on  the home page
-    message = "This website currently undergoing a major revam. Please visit our Discord or email us to be notified of current meetings!"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "at The Ohio State University"
+  mainSections = ["post","posts"]
+  logo = "img/icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
 
-    twitter = "osuosc"
-    github = "OSUOSC"
+[Params.author]
+  name = "OSU@tOSC"
+  email = "opensourceclub.osu@protonmail.com"
+  mastodon = "https://floss.social/@osc_at_osu"
+  pixelfed = "https://metapixl.com/osc_osu"
+  peertube = "https://spectra.video/c/osc_at_osu_vids/videos"
+  youtube = "https://www.youtube.com/@osc_at_osu"
+  instagram = "https://www.instagram.com/osc_at_osu/"
+  discord = "https://discord.gg/qCSxDbDVSs"
